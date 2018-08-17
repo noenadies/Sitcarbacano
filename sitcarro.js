@@ -73,8 +73,8 @@ for(var i in general){
 //varcarlng=-74.153212;
 
  nodehuno=general[i].keymi;
-//window.Android.showToast(nodehuno);
-alert("SI ENCONTRADO");
+window.Android.showToast(nodehuno);
+
 escribep("funcionando",nodehuno);
 }
     else{alert("NOOO ENCONTRADO");
